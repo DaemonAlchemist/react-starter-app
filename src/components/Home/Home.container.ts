@@ -1,7 +1,6 @@
 import { inject, mergeProps } from "unstateless";
 import { HomeComponent } from "./Home.component";
 import { HomeProps, IHomeInputProps } from "./Home.d";
-import './Home.less';
 
 const connect = inject<IHomeInputProps, HomeProps>(mergeProps((a:any) => a));
 
