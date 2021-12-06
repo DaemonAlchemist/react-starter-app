@@ -1,4 +1,4 @@
 ---
-to: src/components/<%= componentName %>/index.ts
+to: src/<%= moduleName %>/components/<%= componentName %>/index.ts
 ---
 export {<%= componentName %>} from "./<%= componentName %>.container";

@@ -1,0 +1,33 @@
+.file-card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 16px !important;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    p {
+        font-size: x-small;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .file-delete-btn {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        visibility: hidden;
+    }
+    .file-edit-btn {
+        position: absolute;
+        bottom: -24px;
+        right: -40px;
+        visibility: hidden;
+    }
+    &:hover {
+        .file-delete-btn, .file-edit-btn {
+            visibility: visible;
+        }
+    }
+}

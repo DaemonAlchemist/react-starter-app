@@ -1,0 +1,11 @@
+.agent-selector-popup {
+    position: absolute;
+    bottom: -64px;
+    right: 16px;
+    width: 500px;
+    // border: solid 1px @border-color-base;
+    // border-radius: @border-radius-base;
+    padding: 8px;
+    z-index: 999;
+    background: #ffffff;
+}

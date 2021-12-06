@@ -3,9 +3,14 @@
 //
 module.exports = [
     {
-      message: "Component Name",
-      name: 'componentName',
-      type: 'input',
+        message: "Module",
+        name: 'moduleName',
+        type: 'input',
+    },
+    {
+        message: "Component Name",
+        name: 'componentName',
+        type: 'input',
     }
   ];
   

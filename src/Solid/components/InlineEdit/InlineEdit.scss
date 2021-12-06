@@ -1,0 +1,9 @@
+.inline-edit.ant-input-affix-wrapper {
+    width: auto;
+    input {
+        border-color: rgba(255, 255, 255, 0.0);
+    }
+    &:hover input, input:focus {
+        border-color: #0000ff;
+    }
+}

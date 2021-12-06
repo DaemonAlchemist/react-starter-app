@@ -1,0 +1,1 @@
+export {addEditorRegistrator, useRegisteredEditors} from './useRegisteredEditors';

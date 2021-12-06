@@ -1,0 +1,20 @@
+.dir-link {
+    .directory-delete-btn {
+        position: absolute;
+        right: 0;
+        visibility: hidden;
+    }
+    &:hover {
+        .directory-delete-btn {
+            visibility: visible;
+        }
+    }
+}
+
+.file-list {
+    h4 {
+        display: inline-block;
+        margin: 0;
+        margin-right: 32px;
+    }
+}

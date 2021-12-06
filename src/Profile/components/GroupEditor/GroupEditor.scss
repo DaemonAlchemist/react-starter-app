@@ -1,0 +1,25 @@
+.group-member-list {
+    padding-top: 16px;
+}
+
+.group-member {
+    display: inline-block;
+    margin-left: 16px;
+    &:first-child {
+        margin-left: 0;
+    }
+    .remove-btn {
+        visibility: hidden;
+    }
+    &:hover {
+        .remove-btn {
+            visibility: visible;
+        }
+    }
+}
+
+.group-editor {
+    .qr-code {
+        float: left;
+    }
+}

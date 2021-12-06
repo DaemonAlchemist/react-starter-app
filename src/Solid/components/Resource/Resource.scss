@@ -1,0 +1,24 @@
+.resource-info .ant-tooltip-inner {
+    width: 512px;
+    height: 140px !important;
+}
+
+.resource-qr-code {
+    float: left;
+    margin-right: 8px;
+}
+
+.resource-spinner {
+    display: inline-block;
+}
+
+.resource-container {
+    .ant-typography-danger {
+        visibility: hidden;
+    }
+    &:hover {
+        .ant-typography-danger {
+            visibility: visible;
+        }
+    }
+}

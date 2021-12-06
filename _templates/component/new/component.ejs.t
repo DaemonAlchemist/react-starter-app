@@ -1,7 +1,7 @@
 ---
-to: src/components/<%= componentName %>/<%= componentName %>.component.tsx
+to: src/<%= moduleName %>/components/<%= componentName %>/<%= componentName %>.component.tsx
 ---
-import * as React from 'react';
+import React from 'react';
 import {<%= componentName %>Props} from "./<%= componentName %>.d";
 import './<%= componentName %>.scss';
 

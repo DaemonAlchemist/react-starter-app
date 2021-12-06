@@ -1,5 +1,5 @@
 ---
-to: src/components/<%= componentName %>/<%= componentName %>.container.ts
+to: src/<%= moduleName %>/components/<%= componentName %>/<%= componentName %>.container.ts
 ---
 import { inject, mergeProps } from "unstateless";
 import {<%= componentName %>Component} from "./<%= componentName %>.component";

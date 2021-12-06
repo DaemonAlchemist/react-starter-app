@@ -1,3 +1,3 @@
 ---
-to: src/components/<%= componentName %>/<%= componentName %>.scss
+to: src/<%= moduleName %>/components/<%= componentName %>/<%= componentName %>.scss
 ---

@@ -1,5 +1,5 @@
 ---
-to: src/components/<%= componentName %>/<%= componentName %>.d.ts
+to: src/<%= moduleName %>/components/<%= componentName %>/<%= componentName %>.d.ts
 ---
 // What gets passed into the component from the parent as attributes
 export declare interface I<%= componentName %>InputProps {

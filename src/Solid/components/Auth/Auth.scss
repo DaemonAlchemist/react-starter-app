@@ -1,0 +1,21 @@
+.permission-list.ant-card {
+    margin-top: 8px;
+    .ant-card-body {
+        margin-bottom: 8px;
+        .resource-list > span {
+            display: block;
+            margin-bottom: 8px;
+        }
+    }
+    .auth-delete-btn {
+        position: absolute;
+        top: -26px;
+        right: -28px;
+        visibility: hidden;
+    }
+    &:hover {
+        .auth-delete-btn {
+            visibility: visible;
+        }
+    }
+}
