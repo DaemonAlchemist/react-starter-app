@@ -1,6 +1,6 @@
 {
-  "name": "react-starter-app-2021",
-  "version": "0.1.0",
+  "name": "react-starter-app",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
